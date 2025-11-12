@@ -1,4 +1,3 @@
-# game.py - SISTEMA COMPLETO MEJORADO CON NIVEL 4 CORREGIDO
 import pygame
 import sys
 import random
@@ -942,4 +941,5 @@ class Game:
             pygame.display.flip()
 
         pygame.quit()
+
         sys.exit()
