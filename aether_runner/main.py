@@ -1,7 +1,3 @@
-# main.py - ARCHIVO PRINCIPAL
-# Aether Runner - Juego de Plataforma 2D
-# Día 4: Sistema de Niveles y Enemigos Funcionales
-
 from game import Game
 
 if __name__ == "__main__":
@@ -35,3 +31,4 @@ if __name__ == "__main__":
     game = Game()
 
     game.run()
+
