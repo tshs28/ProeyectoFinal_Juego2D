@@ -1,4 +1,3 @@
-# items.py - SISTEMA SIMPLIFICADO Y ROBUSTO
 import pygame
 import math
 import random
@@ -79,4 +78,5 @@ class ItemManager:
         self.items.draw(screen)
         
     def get_fragment_count(self):
+
         return sum(1 for item in self.items if item.item_type == 'FRAGMENT')
