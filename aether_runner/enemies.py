@@ -1,4 +1,3 @@
-# enemies.py - ENEMIGOS CORREGIDOS (con colisiones)
 import pygame
 import math
 import random
@@ -182,4 +181,5 @@ class EnemyManager:
         return False
     
     def check_collisions(self, player):
+
         return pygame.sprite.spritecollide(player, self.enemies, False)
