@@ -1,4 +1,3 @@
-# player.py - PERSONAJE ANIME COMPLETO
 import pygame
 import os
 import random
@@ -734,4 +733,5 @@ class Player(pygame.sprite.Sprite):
                 attack_height
             )
         
+
         return attack_rect
